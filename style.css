@@ -106,9 +106,16 @@ button {
   padding-bottom: 50px;
 }
 /*Columns*/
+.cols-3 {
+  justify-content: space-between;
+  display: flex;
+}
+.cols-3 .col {
+  width: 30%;
+}
 .col {
-  min-height: 500px;
-  border: 1px dashed gray;
+  min-height: 700px;
+  border: solid gray 2px;
 }
 .row {
   display: flex;
@@ -126,6 +133,10 @@ h2 {
   margin-bottom: 50px;
   padding-top: 100px;
 }
+p {
+  padding-left: 10px;
+  padding-top: 20px;
+}
 
 /*end*/
 #clients {
@@ -133,6 +144,7 @@ h2 {
 }
 .squares-container {
   display: flex;
+  padding-top: 100px;
 }
 .square {
   width: calc(100vw / 3);
@@ -159,4 +171,10 @@ h2 {
   background-color: rgb(110, 194, 247);
   text-align: center;
   color: darkviolet;
+}
+
+/*footer*/
+footer {
+  height: 500px;
+  background-color: black;
 }
